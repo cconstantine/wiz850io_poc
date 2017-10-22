@@ -7,5 +7,5 @@ Sends a stream of open pixel control messages at roughly 60 fps ( aka every 16.6
 $ mkdir build
 $ cd build
 $ cmake ..
-$ make && ./main OPC_SERVER
+$ make && ./main OPC_SERVER [DESIRED_FPS (defaults to 60)]
 
