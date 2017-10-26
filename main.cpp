@@ -10,7 +10,7 @@ unsigned int desired_fps = 60;
 int main(int argc, char* argv[]) {
   OPCClient opc_client;
   std::vector<uint8_t> framebuffer;
-  int frameBytes = 4096 * 3;
+  int frameBytes = 4096 * 3 / 2;
   
   fprintf(stderr, "connecting to: %s\n\n", argv[1]);
 
